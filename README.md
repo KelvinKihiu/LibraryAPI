@@ -11,8 +11,9 @@ Update the `MongoDb` connection string in the `appsettings.json` file to include
 Navigate to the root directory of the project and run the following commands:
 ```bash
 dotnet test
+cd LibraryAPI
 dotnet run
 ```
 This will run the tests and then start the application.
 
-Click the link for [Swagger](https://localhost:7226/swagger/index.html) which should contain basic documentation for the API, using OpenAPI standard.
+Click the link for [Swagger](https://localhost:5089/swagger/index.html) which should contain basic documentation for the API, using OpenAPI standard. Change the port number if different.
